@@ -16,6 +16,8 @@
 		C0FC35AE29C26D8000E651FB /* Images_2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC35AD29C26D8000E651FB /* Images_2023Tests.swift */; };
 		C0FC35B829C26D8000E651FB /* Images_2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC35B729C26D8000E651FB /* Images_2023UITests.swift */; };
 		C0FC35BA29C26D8000E651FB /* Images_2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC35B929C26D8000E651FB /* Images_2023UITestsLaunchTests.swift */; };
+		C0FC35CA29C26F1C00E651FB /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC35C929C26F1C00E651FB /* TreeNode.swift */; };
+		C0FC35CC29C2705000E651FB /* photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC35CB29C2705000E651FB /* photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C0FC35B329C26D8000E651FB /* Images-2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Images-2023UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FC35B729C26D8000E651FB /* Images_2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images_2023UITests.swift; sourceTree = "<group>"; };
 		C0FC35B929C26D8000E651FB /* Images_2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images_2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0FC35C929C26F1C00E651FB /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		C0FC35CB29C2705000E651FB /* photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 		C0FC35C829C26E4600E651FB /* Data Models */ = {
 			isa = PBXGroup;
 			children = (
+				C0FC35C929C26F1C00E651FB /* TreeNode.swift */,
+				C0FC35CB29C2705000E651FB /* photo.swift */,
 			);
 			path = "Data Models";
 			sourceTree = "<group>";
@@ -289,9 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0FC35CC29C2705000E651FB /* photo.swift in Sources */,
 				C0FC35A329C26D8000E651FB /* Images_2023.xcdatamodeld in Sources */,
 				C0FC35A029C26D8000E651FB /* Persistence.swift in Sources */,
 				C0FC359929C26D7F00E651FB /* ContentView.swift in Sources */,
+				C0FC35CA29C26F1C00E651FB /* TreeNode.swift in Sources */,
 				C0FC359729C26D7F00E651FB /* Images_2023App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
