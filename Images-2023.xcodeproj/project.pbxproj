@@ -101,6 +101,9 @@
 			children = (
 				C0FC359629C26D7F00E651FB /* Images_2023App.swift */,
 				C0FC359829C26D7F00E651FB /* ContentView.swift */,
+				C0FC35C829C26E4600E651FB /* Data Models */,
+				C0FC35C729C26E3900E651FB /* View Models */,
+				C0FC35C629C26E3400E651FB /* Views */,
 				C0FC359A29C26D8000E651FB /* Assets.xcassets */,
 				C0FC359F29C26D8000E651FB /* Persistence.swift */,
 				C0FC35A429C26D8000E651FB /* Images_2023.entitlements */,
@@ -133,6 +136,27 @@
 				C0FC35B929C26D8000E651FB /* Images_2023UITestsLaunchTests.swift */,
 			);
 			path = "Images-2023UITests";
+			sourceTree = "<group>";
+		};
+		C0FC35C629C26E3400E651FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0FC35C729C26E3900E651FB /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		C0FC35C829C26E4600E651FB /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
