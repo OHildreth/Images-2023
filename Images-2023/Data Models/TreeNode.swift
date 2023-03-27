@@ -7,7 +7,13 @@
 
 import Foundation
 
-class TreeNode<Value> {
+class TreeNode<Value>: Identifiable, Hashable {
+    static func == (lhs: TreeNode<Value>, rhs: TreeNode<Value>) -> Bool {
+        lhs.id == rhs.id    
+    }
+    
+    
+    
     var content: [Value] = []
     
     var name: String
@@ -19,3 +25,5 @@ class TreeNode<Value> {
         self.children = children
     }
 }
+
+

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0CB6D2C29D2416B0003EAD1 /* FileHierarchyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CB6D2B29D2416B0003EAD1 /* FileHierarchyView.swift */; };
 		C0FC359729C26D7F00E651FB /* Images_2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC359629C26D7F00E651FB /* Images_2023App.swift */; };
 		C0FC359929C26D7F00E651FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC359829C26D7F00E651FB /* ContentView.swift */; };
 		C0FC359B29C26D8000E651FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FC359A29C26D8000E651FB /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C0CB6D2B29D2416B0003EAD1 /* FileHierarchyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHierarchyView.swift; sourceTree = "<group>"; };
 		C0FC359329C26D7F00E651FB /* Images-2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Images-2023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FC359629C26D7F00E651FB /* Images_2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images_2023App.swift; sourceTree = "<group>"; };
 		C0FC359829C26D7F00E651FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 		C0FC35C629C26E3400E651FB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C0CB6D2B29D2416B0003EAD1 /* FileHierarchyView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				C0FC35A329C26D8000E651FB /* Images_2023.xcdatamodeld in Sources */,
 				C0FC35A029C26D8000E651FB /* Persistence.swift in Sources */,
 				C0FC359929C26D7F00E651FB /* ContentView.swift in Sources */,
+				C0CB6D2C29D2416B0003EAD1 /* FileHierarchyView.swift in Sources */,
 				C0FC35CA29C26F1C00E651FB /* TreeNode.swift in Sources */,
 				C0FC359729C26D7F00E651FB /* Images_2023App.swift in Sources */,
 			);
