@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C0CB6D2C29D2416B0003EAD1 /* FileHierarchyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CB6D2B29D2416B0003EAD1 /* FileHierarchyView.swift */; };
+		C0EB354529D7866700328209 /* Groo-06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EB353D29D7866600328209 /* Groo-06.jpg */; };
+		C0EB354629D7866700328209 /* Groo-02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EB353E29D7866600328209 /* Groo-02.jpg */; };
+		C0EB354729D7866700328209 /* Groo-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EB353F29D7866600328209 /* Groo-01.jpg */; };
+		C0EB354829D7866700328209 /* Groo-03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EB354029D7866600328209 /* Groo-03.jpg */; };
+		C0EB354929D7866700328209 /* Groo-08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EB354129D7866600328209 /* Groo-08.jpg */; };
+		C0EB354A29D7866700328209 /* Groo-05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EB354229D7866700328209 /* Groo-05.jpg */; };
+		C0EB354B29D7866700328209 /* Groo-04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EB354329D7866700328209 /* Groo-04.jpg */; };
+		C0EB354C29D7866700328209 /* Groo-07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EB354429D7866700328209 /* Groo-07.jpg */; };
 		C0FC359729C26D7F00E651FB /* Images_2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC359629C26D7F00E651FB /* Images_2023App.swift */; };
 		C0FC359929C26D7F00E651FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC359829C26D7F00E651FB /* ContentView.swift */; };
 		C0FC359B29C26D8000E651FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FC359A29C26D8000E651FB /* Assets.xcassets */; };
@@ -40,6 +48,14 @@
 
 /* Begin PBXFileReference section */
 		C0CB6D2B29D2416B0003EAD1 /* FileHierarchyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHierarchyView.swift; sourceTree = "<group>"; };
+		C0EB353D29D7866600328209 /* Groo-06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Groo-06.jpg"; sourceTree = "<group>"; };
+		C0EB353E29D7866600328209 /* Groo-02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Groo-02.jpg"; sourceTree = "<group>"; };
+		C0EB353F29D7866600328209 /* Groo-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Groo-01.jpg"; sourceTree = "<group>"; };
+		C0EB354029D7866600328209 /* Groo-03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Groo-03.jpg"; sourceTree = "<group>"; };
+		C0EB354129D7866600328209 /* Groo-08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Groo-08.jpg"; sourceTree = "<group>"; };
+		C0EB354229D7866700328209 /* Groo-05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Groo-05.jpg"; sourceTree = "<group>"; };
+		C0EB354329D7866700328209 /* Groo-04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Groo-04.jpg"; sourceTree = "<group>"; };
+		C0EB354429D7866700328209 /* Groo-07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Groo-07.jpg"; sourceTree = "<group>"; };
 		C0FC359329C26D7F00E651FB /* Images-2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Images-2023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FC359629C26D7F00E651FB /* Images_2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images_2023App.swift; sourceTree = "<group>"; };
 		C0FC359829C26D7F00E651FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +98,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0EB353C29D7864E00328209 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB353F29D7866600328209 /* Groo-01.jpg */,
+				C0EB353E29D7866600328209 /* Groo-02.jpg */,
+				C0EB354029D7866600328209 /* Groo-03.jpg */,
+				C0EB354329D7866700328209 /* Groo-04.jpg */,
+				C0EB354229D7866700328209 /* Groo-05.jpg */,
+				C0EB353D29D7866600328209 /* Groo-06.jpg */,
+				C0EB354429D7866700328209 /* Groo-07.jpg */,
+				C0EB354129D7866600328209 /* Groo-08.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		C0FC358A29C26D7F00E651FB = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +136,7 @@
 		C0FC359529C26D7F00E651FB /* Images-2023 */ = {
 			isa = PBXGroup;
 			children = (
+				C0EB353C29D7864E00328209 /* Resources */,
 				C0FC359629C26D7F00E651FB /* Images_2023App.swift */,
 				C0FC359829C26D7F00E651FB /* ContentView.swift */,
 				C0FC35C829C26E4600E651FB /* Data Models */,
@@ -272,8 +304,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EB354629D7866700328209 /* Groo-02.jpg in Resources */,
+				C0EB354529D7866700328209 /* Groo-06.jpg in Resources */,
 				C0FC359E29C26D8000E651FB /* Preview Assets.xcassets in Resources */,
+				C0EB354C29D7866700328209 /* Groo-07.jpg in Resources */,
+				C0EB354B29D7866700328209 /* Groo-04.jpg in Resources */,
+				C0EB354A29D7866700328209 /* Groo-05.jpg in Resources */,
+				C0EB354829D7866700328209 /* Groo-03.jpg in Resources */,
 				C0FC359B29C26D8000E651FB /* Assets.xcassets in Resources */,
+				C0EB354729D7866700328209 /* Groo-01.jpg in Resources */,
+				C0EB354929D7866700328209 /* Groo-08.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
