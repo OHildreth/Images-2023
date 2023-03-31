@@ -23,7 +23,7 @@ struct FileHierarchyView: View {
         ])
     ]
     
-    var selectedTreeNode: TreeNode<Photo>? = nil
+    @State var selectedTreeNode: Set<TreeNode<Photo>.ID> = []
     
     
     var body: some View {

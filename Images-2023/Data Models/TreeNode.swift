@@ -12,7 +12,9 @@ class TreeNode<Value>: Identifiable, Hashable {
         lhs.id == rhs.id    
     }
     
-    
+    public func hash(into hasher: inout Hasher) {
+        return hasher.combine(id)
+    }
     
     var content: [Value] = []
     
