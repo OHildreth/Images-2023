@@ -17,15 +17,17 @@ class TreeNode<Value>: Identifiable, Hashable {
     }
     
     var content: [Value] = []
-    
     var name: String
-    
     var children: [TreeNode]? = nil
     
-    init(name: String, children: [TreeNode]? = nil) {
+    let isRoot: Bool
+    
+    init(name: String, children: [TreeNode]? = nil, isRoot: Bool = true) {
         self.name = name
         self.children = children
+        self.isRoot = isRoot
     }
+
 }
 
 

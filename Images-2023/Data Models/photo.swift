@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Photo {
+class Photo: Hashable, Identifiable {
     var name: String
     
     let url: URL
@@ -22,6 +22,14 @@ class Photo {
         self.url = url
         self.photo_size = photo_size
         self.importDate = importDate
+    }
+    
+    static func == (lhs: Photo, rhs: Photo) -> Bool {
+        lhs.id == rhs.id
+    }
+ 
+    public func hash(into hasher: inout Hasher) {
+        return hasher.combine(id)
     }
 }
 

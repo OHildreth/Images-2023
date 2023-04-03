@@ -9,12 +9,25 @@ import SwiftUI
 
 @main
 struct Images_2023App: App {
-    let persistenceController = PersistenceController.shared
-
+    @StateObject var appController = AppController()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+        }
+        .commands {
+            CommandGroup(replacing: CommandGroupPlacement.newItem) {
+                Button("Import File") {
+                    let panel = NSOpenPanel()
+                    panel.allowsMultipleSelection = true
+                    panel.canChooseDirectories = true
+                    
+                    if panel.runModal() == .OK {
+                        appController.importFromUrls(panel.urls)
+                    }
+                }
+                .keyboardShortcut("i", modifiers: .command)
+            }
         }
     }
 }

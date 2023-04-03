@@ -25,7 +25,6 @@ struct FileHierarchyView: View {
     
     @State var selectedTreeNode: Set<TreeNode<Photo>.ID> = []
     
-    
     var body: some View {
         NavigationView {
             List(exampleData, id: \.id, children: \.children, selection: $selectedTreeNode) {children in
