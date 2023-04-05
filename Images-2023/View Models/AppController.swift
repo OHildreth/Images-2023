@@ -18,4 +18,22 @@ class AppController: ObservableObject {
         
 //        fileImporter.importURLs(urls, into: <#T##TreeNode<Photo>#>)
     }
+    
+    func treeNodeDestination() -> TreeNode<Photo>? {
+        let currentSelection = selectionManager.selectedTreeNodes
+        
+        if currentSelection.count == 0 {
+            return treeNodes.first
+        } else if currentSelection.count == 1 {
+            return currentSelection.first
+        } else {
+            return nil
+        }
+    }
+    
+    enum AppControllerErrors: Error {
+        case multipleTreeNodesSelectedDuringImport
+        case noRootTreeNodeToImportInto
+        
+    }
 }
