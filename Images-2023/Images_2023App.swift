@@ -13,7 +13,7 @@ struct Images_2023App: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(appController: appController)
         }
         .commands {
             CommandGroup(replacing: CommandGroupPlacement.newItem) {

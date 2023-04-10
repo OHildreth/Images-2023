@@ -9,10 +9,11 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    @ObservedObject var appController: AppController
     
     var body: some View {
         HStack {
-            FileHierarchyView()
+            FileHierarchyView(treeNodes: appController.treeNodes, selectedTreeNode: $appController.selectionManager.selectedTreeNodes)
             Text("Other Junk")
         }
     }

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct FileHierarchyView: View {
+    var treeNodes: [TreeNode<Photo>]
+    
     let exampleData = [
         TreeNode<Photo>(name: "Image 1",
                         children: [
@@ -23,11 +25,11 @@ struct FileHierarchyView: View {
         ])
     ]
     
-    @State var selectedTreeNode: Set<TreeNode<Photo>.ID> = []
+    @Binding var selectedTreeNode: Set<TreeNode<Photo>.ID>
     
     var body: some View {
         NavigationView {
-            List(exampleData, id: \.id, children: \.children, selection: $selectedTreeNode) {children in
+            List(treeNodes, id: \.id, children: \.children, selection: $selectedTreeNode) {children in
                 Text(children.name)
             }
                 .listStyle(.sidebar)

@@ -27,6 +27,23 @@ class TreeNode<Value>: Identifiable, Hashable {
         self.children = children
         self.isRoot = isRoot
     }
+    
+    public func flattenChildren () -> [TreeNode<Photo>]? {
+        var childrenArray: [TreeNode<Photo>] = []
+        
+        guard let children else {
+            return nil
+        }
+        
+        for child in children {
+            guard let localFlattenChildren = child.flattenChildren() else {
+                continue
+            }
+            childrenArray.append(contentsOf: localFlattenChildren)
+        }
+        
+        return childrenArray
+    }
 
 }
 
